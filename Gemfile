@@ -31,6 +31,8 @@ gem 'devise'
 gem 'bootstrap-sass'
 gem 'redis', '~> 3.2'
 
+gem 'rollbar'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
